@@ -1,0 +1,12 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    color: #fff; 
+    height: 100vh;
+    scroll-behavior: smooth;
+    padding: 60px 0; 
+    color: #fff; 
+}
