@@ -12,7 +12,7 @@
 </head>
 <body>
     
-  <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-primary" style="height: 60px;" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav flex-grow-1 d-flex justify-content-center">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#home">Home</a>
+            <a class="nav-link text-white" href="#business">Home</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link text-white" href="#business">Business</a>
@@ -40,11 +40,7 @@
     </div>
   </nav>
 
-  <!-- Home Section-->
-  <section id="home">
-      <h2>TEST</h2>
-  </section>
-
+ 
   <!-- Business Section-->
   <section id="business" class="pb-5"> 
   
@@ -62,206 +58,461 @@
                   From timeless classics to contemporary bestsellers, we have something for everyone.</p>
           </div>
           <div class="row d-flex justify-content-end p-2">
-              <a class="btn btn-info rounded-4 p-2" style="width:180px;" href="#Products"><i class="bi bi-arrow-right-circle"></i> GO TO STORE</a>
+              <a class="btn btn-info  p-1" style="width:120px;font-size: 12px;" href="#Products"><i class="bi bi-arrow-right-circle"></i> VISIT STORE</a>
           </div>
       </div>
     </div>
   </section>
 
   <!-- Products Section -->
-  <section id="Products" class="shadow-lg rounded-2"> 
+  <section id="Products" class="rounded-2 bg-body-secondary mb-2"> 
 
-              <div class="container rounded-2"> 
-                <div class="row  p-2 shadow-sm bg-primary">
-                    <h5 class="text-center text-white">
-                        <i class="bi bi-bag-heart-fill"></i> Our Bestseller Books
-                    </h5>
-                </div>
+    <div class="container-fluid rounded-2"> 
+      <div class="row  p-2 shadow-sm bg-primary">
+          <h5 class="text-center text-white">
+              <i class="bi bi-bag-heart-fill"></i> Our Bestseller Books
+          </h5>
+      </div>
+    </div>
+  
+    <div class="row mt-1 d-flex">
+  
+        <div class="col-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-img d-flex justify-content-center p-1">
+              <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
             </div>
-            <div class="row p-2 d-flex justify-content-evenly p-4 align-items-lg-end">
-              
-                  <div class="card border p-3 shadow border-top border-5 rounded-5" style="width: 15rem; height: 28rem; display: flex; justify-content: center;">
-                      
-                          <img src="/SrcImg/book2.jpg" class="card-img-top rounded w-100" alt="Book picture" style="object-fit: cover;">
-                      
-                      
-                      
-                      <div class="card-body d-flex flex-column">
-                          <div class="mb-2">
-                              <h5 class="card-title text-center text-primary">Python</h5>
-                              <h3 class="text-center mt-1" style="font-weight:bold;"><i class="bi bi-tag"></i>₱200<span></span></h3>
-                          </div>
+            <div class="card-body">
+              <h6>Python Programming</h6>
+              <p class="text-center fw-semibold text-primary">$10</p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-end">
+                   <div class="col-6">
+                          <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
 
-                    
+                   </div>
+                   <div class="col-6">
+                          <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
 
-
-                      </div>
-
-                      <div class="row d-flex justify-content-center">
-                      
-                          
-                          <div class="col-6">
-
-                            <a href="addToCart.html" class="btn btn-info mt-auto align-self-center rounded-2 mt-2 w-100 p-2"><i class="bi bi-cart2"></i> Buy</a>
-
-                          </div>
-                      </div>
-                  
                   </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-img d-flex justify-content-center p-1">
+              <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+            </div>
+            <div class="card-body">
+              <h6>Python Programming</h6>
+              <p class="text-center fw-semibold text-primary">$10</p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-end">
+              <div class="col-6">
+                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
 
-                  <div class="card border p-3 shadow border-top border-5 rounded-5" style="width: 15rem; height: 28rem; display: flex; justify-content: center;">
-                      
-                    <img src="/SrcImg/book2.jpg" class="card-img-top rounded w-100" alt="Book picture" style="object-fit: cover;">
-                
-                
-                
-                <div class="card-body d-flex flex-column">
-                    <div class="mb-2">
-                        <h5 class="card-title text-center text-primary">Python</h5>
-                        <h3 class="text-center mt-1" style="font-weight:bold;"><i class="bi bi-tag"></i>₱200<span></span></h3>
-                    </div>
-
-              
-
-
-                </div>
-
-                <div class="row d-flex justify-content-center">
-                
-                    
-                    <div class="col-6">
-
-                      <a href="addToCart.html" class="btn btn-info mt-auto align-self-center rounded-2 mt-2 w-100 p-2"><i class="bi bi-cart2"></i> Buy</a>
-
-                    </div>
-                </div>
-            
               </div>
-              <div class="card border p-3 shadow border-top border-5 rounded-5" style="width: 15rem; height: 28rem; display: flex; justify-content: center;">
-                      
-                <img src="/SrcImg/book2.jpg" class="card-img-top rounded w-100" alt="Book picture" style="object-fit: cover;">
-            
-            
-            
-            <div class="card-body d-flex flex-column">
-                <div class="mb-2">
-                    <h5 class="card-title text-center text-primary">Python</h5>
-                    <h3 class="text-center mt-1" style="font-weight:bold;"><i class="bi bi-tag"></i>₱200<span></span></h3>
-                </div>
+              <div class="col-6">
+                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
 
+             </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-img d-flex justify-content-center p-1">
+              <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+            </div>
+            <div class="card-body">
+              <h6>Python Programming</h6>
+              <p class="text-center fw-semibold text-primary">$10</p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-end">
+              <div class="col-6">
+                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+              </div>
+              <div class="col-6">
+                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+             </div>
+           </div>
+          </div>
+        </div>
+  
+        <div class="col-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-img d-flex justify-content-center p-1">
+              <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+            </div>
+            <div class="card-body">
+              <h6>Python Programming</h6>
+              <p class="text-center fw-semibold text-primary">$10</p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-end">
+              <div class="col-6">
+                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+  
+              </div>
+              <div class="col-6">
+                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+  
+             </div>
+           </div>
+          </div>
           
-
-
-            </div>
-
-            <div class="row d-flex justify-content-center">
-            
-                
-                <div class="col-6">
-
-                  <a href="addToCart.html" class="btn btn-info mt-auto align-self-center rounded-2 mt-2 w-100 p-2"><i class="bi bi-cart2"></i> Buy</a>
-
-                </div>
-            </div>
-        
         </div>
-
-
-
-
-
-
-
-                  <div class="card border p-3 shadow border-top border-5 rounded-5" style="width: 15rem; height: 28rem; display: flex; justify-content: center;">
-                      
-                    <img src="/SrcImg/book2.jpg" class="card-img-top rounded w-100" alt="Book picture" style="object-fit: cover;">
-                
-                
-                
-                <div class="card-body d-flex flex-column">
-                    <div class="mb-2">
-                        <h5 class="card-title text-center text-primary">Python</h5>
-                        <h3 class="text-center mt-1" style="font-weight:bold;"><i class="bi bi-tag"></i>₱200<span></span></h3>
-                    </div>
-
-              
-
-
-                </div>
-
-                <div class="row d-flex justify-content-center">
-                
-                    
-                    <div class="col-6">
-
-                        <a href="addToCart.html" class="btn btn-info mt-auto align-self-center rounded-2 mt-2 w-100 p-2"><i class="bi bi-cart2"></i> Buy</a>
-
-                    </div>
-                </div>
-            
+  
+        <div class="col-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-img d-flex justify-content-center p-1">
+              <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
             </div>
-            
-                  
-
-                </div>
-              
-        </div>
-       
-      
-</div>
-
-
-  </section>
-
-
-  <section id="umHistory" class="mt-4 shadow-lg">
-
-
-    <div class="container">
-
-
-       <div class="row d-flex">
-
-          <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-            <div class="mt-2">
-                <img src="/SrcImg/um.png" alt="Um Logo" width="150px" height="150px" class="mx-auto d-block">
-                <h5 class="text-center mt-2">The University Manila</h3>
+            <div class="card-body">
+              <h6>Python Programming</h6>
+              <p class="text-center fw-semibold text-primary">$10</p>
             </div>
-        </div>
-    
+            <div class="card-footer border-0 d-flex justify-content-end">
+              <div class="col-6">
+                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
 
-                <div class="col-6 shadow-sm border-2 border border-success"style="height: 24rem;">
-                        <h5 class="text-center mt-4">Mission</h5>
+              </div>
+              <div class="col-6">
+                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
 
-                  <p class="p-2">
-                    ACE- to accomplish somothing with complete success. <br>
-                    A - anchor in the hearts of the youth the love of country, science and virtue.<br>
-                    C - create atmosphere of academic excellence and competence. <br>
-                    E - empower the youth with moder scientific technological skills in braving the challenges of the global society.<br>
-                  </p>
-            </div>
-            <div class="col-6 border-2 border border-success" style="height: 24rem;">
-                <h6 class="text-center mt-4">Vision</h6>
-                <p>
-                    
-                </p>
-            </div>
-
-       
-
-
+             </div>
        </div>
+          </div>
+        </div>
+  
+        <div class="col-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-img d-flex justify-content-center p-1">
+              <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+            </div>
+            <div class="card-body">
+              <h6>Python Programming</h6>
+              <p class="text-center fw-semibold text-primary">$10</p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-end">
+              <div class="col-6">
+                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+  
+              </div>
+              <div class="col-6">
+                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+  
+             </div>
+           </div>
+          </div>
+        </div>
+        
+    </div>
+
+    <div class="row  mt-1 d-flex" >
+  
+      <div class="col-2">
+        <div class="card shadow-sm border-0">
+          <div class="card-img d-flex justify-content-center p-1">
+            <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <h6>Python Programming</h6>
+            <p class="text-center fw-semibold text-primary">$10</p>
+          </div>
+          <div class="card-footer border-0 d-flex justify-content-end">
+                 <div class="col-6">
+                        <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+                 </div>
+                 <div class="col-6">
+                        <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="card shadow-sm border-0">
+          <div class="card-img d-flex justify-content-center p-1">
+            <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <h6>Python Programming</h6>
+            <p class="text-center fw-semibold text-primary">$10</p>
+          </div>
+          <div class="card-footer border-0 d-flex justify-content-end">
+            <div class="col-6">
+                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+            </div>
+            <div class="col-6">
+                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+           </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="card shadow-sm border-0">
+          <div class="card-img d-flex justify-content-center p-1">
+            <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <h6>Python Programming</h6>
+            <p class="text-center fw-semibold text-primary">$10</p>
+          </div>
+          <div class="card-footer border-0 d-flex justify-content-end">
+            <div class="col-6">
+                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+            </div>
+            <div class="col-6">
+                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+           </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="card shadow-sm border-0">
+          <div class="card-img d-flex justify-content-center p-1">
+            <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <h6>Python Programming</h6>
+            <p class="text-center fw-semibold text-primary">$10</p>
+          </div>
+          <div class="card-footer border-0 d-flex justify-content-end">
+            <div class="col-6">
+                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+            </div>
+            <div class="col-6">
+                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+           </div>
+         </div>
+        </div>
+        
+      </div>
+
+      <div class="col-2">
+        <div class="card shadow-sm border-0">
+          <div class="card-img d-flex justify-content-center p-1">
+            <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <h6>Python Programming</h6>
+            <p class="text-center fw-semibold text-primary">$10</p>
+          </div>
+          <div class="card-footer border-0 d-flex justify-content-end">
+            <div class="col-6">
+                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+            </div>
+            <div class="col-6">
+                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+           </div>
+     </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="card shadow-sm border-0">
+          <div class="card-img d-flex justify-content-center p-1">
+            <img src="./SrcImg/book2.jpg" alt="" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <h6>Python Programming</h6>
+            <p class="text-center fw-semibold text-primary">$10</p>
+          </div>
+          <div class="card-footer border-0 d-flex justify-content-end">
+            <div class="col-6">
+                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+
+            </div>
+            <div class="col-6">
+                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+
+           </div>
+         </div>
+        </div>
+      </div>
+      
+  </div>
+
+
+  
+  </section>
+  
+
+
+
+
+<!--Location-->
+<section class="shadow-sm bg-body-secondary">
+  <div class="container" style="max-width: 1200px;">
+    <div class="row p-2 shadow-sm bg-primary">
+      <h5 class="text-center text-white w-100">
+        <i class="bi bi-geo-alt-fill"></i> Our Store Location
+      </h5>
+    </div>
+  </div>
+  <div class="container-fluid d-flex justify-content-center mt-4 ">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13193.192689123525!2d120.97640093734249!3d14.596027138603851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca0264ae06d9%3A0x3a8f29b863a129d1!2sNational%20Book%20Store%20-%20Recto!5e0!3m2!1sen!2sph!4v1724651175785!5m2!1sen!2sph" 
+      width="100%" 
+      height="500" 
+      style="max-width: 1100px; border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+
+
+
+
+  <!--CS HISTORY-->
+
+  <section id="umHistory" class="mt-4 bg-body-secondary p-0">
+
+
+    <div class="container-fluid d-flex w-100 p-0  h-100">
+
+      <div class="col-2 bg-primary">
+      </div>
+      <div class="col-8">
+
+
+      </div>
+       
+
 
     </div>
 
     
  </section>
 
+<!--CS EVENTS-->
+  <section id="events" class="p-2 mb-4">
 
-  <section id="events">
+     <div class="container-fluid p-2">
 
-     TEST
+       <div class="row shadow-sm p-3">
+        
+          <h4>Here are the latest CS Events</h4>
+
+          <div class="p-1 mb-1">
+            <h6 class="text-center"><span class=" p-2 rounded-2">Acquintance Party 2023</span></h6>
+
+          </div>
+
+            <div class="row justify-content-evenly d-flex">
+               <div class="col-2 ">
+                       <img src="/SrcImg/EVENT1.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+               </div>
+               <div class="col-2">
+                      <img src="/SrcImg/EVENT2.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+              </div>
+               <div class="col-2">
+                     <img src="/SrcImg/EVENT3.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+              </div>
+              <div class="col-2">
+                <img src="/SrcImg/EVENT14.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+             </div>
+              <div class="col-2">
+                    <img src="/SrcImg/EVENT5.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+            </div>
+              <div class="col-2">
+                    <img src="/SrcImg/EVENT6.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+            </div>
+             
+              
+            
+            
+            </div>
+           
+       </div>
+
+       <div class="row mt-lg-4 shadow-sm p-3">
+        <div class="p-1 mb-1">
+            <h6 class="text-center"> <span class=" p-2 rounded-2">Intramurals 2024</span></h6>
+        </div>
+            <div class="row justify-content-evenly d-flex">
+               <div class="col-2 ">
+                       <img src="/SrcImg/Intrams1.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+               </div>
+               <div class="col-2">
+                      <img src="/SrcImg/Intrams2.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+              </div>
+               <div class="col-2">
+                     <img src="/SrcImg/Intrams3.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+              </div>
+              <div class="col-2">
+                <img src="/SrcImg/Intrams5.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+             </div>
+              <div class="col-2">
+                    <img src="/SrcImg/Intrams6.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+            </div>
+              <div class="col-2">
+                    <img src="/SrcImg/Intrams6.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
+
+            </div>
+             
+              
+            
+            
+            </div>
+           
+       </div>
+
+
+       <div class="row mt-2">
+              <div class="col d-flex justify-content-end align-items-center">
+                  <div class="btn-wrapper">
+                      <a href="https://www.facebook.com/profile.php?id=100088341306245" class="btn btn-info p-2 fs-6">View More</a>
+                  </div>
+              </div>
+        </div>
+    
+       
+
+     </div>
   </section>
+
+  <footer class="bg-body-secondary mt-lg-4">
+
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-12">
+
+               This is the contacts
+           </div>
+       </div>
+    </div>
+  </footer>
 
 
 
