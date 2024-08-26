@@ -42,4 +42,9 @@ footer{
 .img-back {
   background-color: white; 
 }
+.nav-links {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 2px; 
+}
 
