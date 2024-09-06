@@ -14,14 +14,14 @@
     
   <nav class="navbar navbar-expand-lg bg-primary" style="height: 60px;" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand " href="#" style="margin-left: 31px;"><img src="SrcImg/LOGOJE.png" alt="" width="40px" height="40px" style="border-radius: 50%;border-color: aliceblue 2px solid;"></a>
+      <a class="navbar-brand " href="#" style="margin-left: 31px;"><img src="SrcImg/LOGOJE.png" alt="" class="img-fluid " style="border-radius: 50%;border-color: aliceblue 2px solid;height: auto; width: 30px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav flex-grow-1 d-flex justify-content-center">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#business">Home</a>
+            <a class="nav-link text-white" href="#Home">Home</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link text-white" href="#business">Business</a>
@@ -50,73 +50,60 @@
 
 
   <section id="Home" class="shadow-sm bg-body-secondary mt-4 p-4">
-     
-    <div class="container d-flex">
-
-      <div class="col-6 d-flex justify-content-center align-items-center">
-        <div class="img-wrapper p-4 shadow-sm " style="margin:60px;border-radius:50%;">
-          <img src="SrcImg/Jerald.jpg"  class="profile" alt="jeraldpic" width="400" height="400" style="border-radius: 50%;">
-
+    <div class="container d-flex flex-wrap">
+      <div class="col-lg-6 col-md-8 col-sm-10 col-12 d-flex justify-content-center align-items-center">
+        <div class="img-wrapper p-4 shadow-sm" style="margin:60px; border-radius:50%;">
+          <img src="SrcImg/Jerald.jpg" class="profile img-fluid" alt="jeraldpic" style="border-radius: 50%; max-width: 100%; height: auto;">
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6 col-md-8 col-sm-12 col-12">
         <h3 style="margin-top: 50px;">Hello, I am <span class="spans">JERALD MONTEMOR</span> </h3>
-        <p class="text-muted text-wrap mt-4 fs-4" style="text-transform: lowercase;text-align: justify;"><span style="text-transform: uppercase;">I</span> am aspiring .NET developer , currently studying at <span style="text-transform: uppercase;">T</span>he University of <span style="text-transform: uppercase;">M</span>anila
-            with the degree of Bachelor of Science
-            in Computer science.</p>
+        <p class="text-muted text-wrap mt-4 fs-4" style="text-transform: lowercase; text-align: justify;">
+          <span style="text-transform: uppercase;">I</span> am aspiring .NET developer, currently studying at 
+          <span style="text-transform: uppercase;">T</span>he University of 
+          <span style="text-transform: uppercase;">M</span>anila
+          with the degree of Bachelor of Science in Computer Science.
+        </p>
 
-        
-
-          <div class="row d-flex">
-            <div class="card mb-4 mt-4d:\ASP_PROJECTS\MyPortfolio\wwwroot\Images\py.png">
-
-              <div class="card-body">
-            
-                <div class="d-flex justify-content-around">
-            
-                  <img class="pg" src="SrcImg/py.png" alt="C#" width="50" height="50"/>
-                  <img class="pg" src="SrcImg/Csharp.png" alt="C#" width="50" height="50"/>
-                  <img class="pg" src="SrcImg/VB.png" alt="C#"width="50" height="50" />
-            
-            
-            
-            
-                </div>
-            
-              </div>
-            </div>
-            
-            <h6 class="text-muted mb-4">FRONT END TOOLS AND FRAMEWORKS </h6>
-            <div class="card mb-4">
-            
-              <div class="card-body">
-            
-                <div class="d-flex justify-content-around">
-            
-                  <img class="pg" src="SrcImg/jsss.png" alt="C#" width="50" height="50"/>
-                  <img class="pg" src="SrcImg/html.png" alt="C#"width="50" height="50" />
-                  <img class="pg" src="SrcImg/bs.png" alt="C#"width="50" height="50" style="border-radius: 50%;" />
-            
-            
-                </div>
-            
+        <div class="row d-flex">
+          <div class="card mb-4 mt-4">
+            <div class="card-body">
+              <div class="d-flex justify-content-around">
+                <img class="pg" src="SrcImg/py.png" alt="Python" width="50" height="50"/>
+                <img class="pg" src="SrcImg/Csharp.png" alt="C#" width="50" height="50"/>
+                <img class="pg" src="SrcImg/VB.png" alt="VB.NET" width="50" height="50"/>
               </div>
             </div>
           </div>
-          <div class="row d-flex justify-content-end align-items-end">
-            <button id="downloadButton" class="btn btn-info p-1" style="width: 120px;font-size: 12px; margin-right: 5px;height: 35px;"><i class="bi bi-briefcase"></i>
-              HIRE ME</button>
 
-            <a href="#business" class="btn btn-outline-info p-1 border-2" style="width: 120px;font-size: 12px;">GET STARTED</a>
-
+          <h6 class="text-muted mb-4">FRONT END TOOLS AND FRAMEWORKS</h6>
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="d-flex justify-content-around">
+                <img class="pg" src="SrcImg/jsss.png" alt="JavaScript" width="50" height="50"/>
+                <img class="pg" src="SrcImg/html.png" alt="HTML" width="50" height="50"/>
+                <img class="pg" src="SrcImg/bs.png" alt="Bootstrap" width="50" height="50" style="border-radius: 50%;"/>
+              </div>
+            </div>
           </div>
+        </div>
+
+        <div class="row d-flex justify-content-end align-items-end">
+          <button id="downloadButton" class="btn btn-info p-1" style="width: 120px; font-size: 12px; margin-right: 5px; height: 35px;">
+            <i class="bi bi-briefcase"></i> DOWNLOAD CV
+          </button>
+
+          <a href="#business" class="btn btn-outline-info p-1 border-2" style="width: 120px; font-size: 12px;">
+            GET STARTED
+          </a>
+        </div>
       </div>
-
     </div>
-  </section>
+</section>
+
  
   <!-- Business Section-->
-  <section id="business" class="pb-5 shadow-sm bg-body-secondary mt-4"> 
+  <section id="business" class="pb-5 mt-4"> 
   
     <div class="row w-100 p-4 d-flex">
       <div class="col-6 d-flex align-items-center justify-content-center">
@@ -139,293 +126,309 @@
   </section>
 
   <!-- Products Section -->
-  <section id="Products" class="rounded-2 bg-body-secondary mb-2 mt-4"> 
+  <!-- Products Section -->
+<section id="Products" class="rounded-2 bg-body-secondary mb-2 mt-4">
 
-    <div class="container-fluid rounded-2"> 
-      <div class="row  p-2 shadow-sm bg-primary">
-          <h5 class="text-center text-white">
-              <i class="bi bi-bag-heart-fill"></i> Our Bestseller Books
-          </h5>
-      </div>
+  <div class="container-fluid rounded-2">
+    <div class="row p-2 shadow-sm bg-primary">
+      <h5 class="text-center text-white">
+        <i class="bi bi-bag-heart-fill"></i> Our Bestseller Books
+      </h5>
     </div>
-  
-    <div class="row mt-1 d-flex">
-  
-        <div class="col-2">
-          <div class="card shadow-sm border-0">
-            <div class="card-img d-flex justify-content-center p-1">
-              <img src="SrcImg/book2.jpg" alt="" width="100" height="100">
-            </div>
-            <div class="card-body">
-              <h6>Python Programming</h6>
-              <p class="text-center fw-semibold text-primary">$10</p>
-            </div>
-            <div class="card-footer border-0 d-flex justify-content-end">
-                   <div class="col-6">
-                          <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-                   </div>
-                   <div class="col-6">
-                          <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-                  </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-2">
-          <div class="card shadow-sm border-0">
-            <div class="card-img d-flex justify-content-center p-1">
-              <img src="SrcImg/Java.png" alt="" width="100" height="100">
-            </div>
-            <div class="card-body">
-              <h6>Java Programming</h6>
-              <p class="text-center fw-semibold text-primary">$10</p>
-            </div>
-            <div class="card-footer border-0 d-flex justify-content-end">
-              <div class="col-6">
-                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-              </div>
-              <div class="col-6">
-                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-             </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-2">
-          <div class="card shadow-sm border-0">
-            <div class="card-img d-flex justify-content-center p-1">
-              <img src="SrcImg/Ruby.jfif" alt="" width="100" height="100">
-            </div>
-            <div class="card-body">
-              <h6>Ruby Programming</h6>
-              <p class="text-center fw-semibold text-primary">$10</p>
-            </div>
-            <div class="card-footer border-0 d-flex justify-content-end">
-              <div class="col-6">
-                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-              </div>
-              <div class="col-6">
-                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-             </div>
-           </div>
-          </div>
-        </div>
-  
-        <div class="col-2">
-          <div class="card shadow-sm border-0">
-            <div class="card-img d-flex justify-content-center p-1">
-              <img src="SrcImg/Cobol.jfif" alt="" width="100" height="100">
-            </div>
-            <div class="card-body">
-              <h6>Cobol Programming</h6>
-              <p class="text-center fw-semibold text-primary">$10</p>
-            </div>
-            <div class="card-footer border-0 d-flex justify-content-end">
-              <div class="col-6">
-                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-  
-              </div>
-              <div class="col-6">
-                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-  
-             </div>
-           </div>
-          </div>
-          
-        </div>
-  
-        <div class="col-2">
-          <div class="card shadow-sm border-0">
-            <div class="card-img d-flex justify-content-center p-1">
-              <img src="SrcImg/Js.jfif" alt="" width="100" height="100">
-            </div>
-            <div class="card-body">
-              <h6>Javascript Programming</h6>
-              <p class="text-center fw-semibold text-primary">$10</p>
-            </div>
-            <div class="card-footer border-0 d-flex justify-content-end">
-              <div class="col-6">
-                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-              </div>
-              <div class="col-6">
-                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-             </div>
-       </div>
-          </div>
-        </div>
-  
-        <div class="col-2">
-          <div class="card shadow-sm border-0">
-            <div class="card-img d-flex justify-content-center p-1">
-              <img src="SrcImg/Asp.jfif" alt="" width="100" height="100">
-            </div>
-            <div class="card-body">
-              <h6>ASP Programming</h6>
-              <p class="text-center fw-semibold text-primary">$10</p>
-            </div>
-            <div class="card-footer border-0 d-flex justify-content-end">
-              <div class="col-6">
-                     <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-  
-              </div>
-              <div class="col-6">
-                     <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-  
-             </div>
-           </div>
-          </div>
-        </div>
-        
-    </div>
-
-    <div class="row  mt-1 d-flex" >
-  
-      <div class="col-2">
-        <div class="card shadow-sm border-0">
-          <div class="card-img d-flex justify-content-center p-1">
-            <img src="SrcImg/PHP.jfif" alt="" width="100" height="100">
-          </div>
-          <div class="card-body">
-            <h6>PHP Programming</h6>
-            <p class="text-center fw-semibold text-primary">$10</p>
-          </div>
-          <div class="card-footer border-0 d-flex justify-content-end">
-                 <div class="col-6">
-                        <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-                 </div>
-                 <div class="col-6">
-                        <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-                </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="card shadow-sm border-0">
-          <div class="card-img d-flex justify-content-center p-1">
-            <img src="SrcImg/Scala.jfif" alt="" width="100" height="100">
-          </div>
-          <div class="card-body">
-            <h6>Scala Programming</h6>
-            <p class="text-center fw-semibold text-primary">$10</p>
-          </div>
-          <div class="card-footer border-0 d-flex justify-content-end">
-            <div class="col-6">
-                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-            </div>
-            <div class="col-6">
-                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-           </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="card shadow-sm border-0">
-          <div class="card-img d-flex justify-content-center p-1">
-            <img src="SrcImg/vbp.jfif" alt="" width="100" height="100">
-          </div>
-          <div class="card-body">
-            <h6>VB Programming</h6>
-            <p class="text-center fw-semibold text-primary">$10</p>
-          </div>
-          <div class="card-footer border-0 d-flex justify-content-end">
-            <div class="col-6">
-                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-            </div>
-            <div class="col-6">
-                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-           </div>
-         </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="card shadow-sm border-0">
-          <div class="card-img d-flex justify-content-center p-1">
-            <img src="SrcImg/F.jfif" alt="" width="100" height="100">
-          </div>
-          <div class="card-body">
-            <h6>F# Programming</h6>
-            <p class="text-center fw-semibold text-primary">$10</p>
-          </div>
-          <div class="card-footer border-0 d-flex justify-content-end">
-            <div class="col-6">
-                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-            </div>
-            <div class="col-6">
-                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-           </div>
-         </div>
-        </div>
-        
-      </div>
-
-      <div class="col-2">
-        <div class="card shadow-sm border-0">
-          <div class="card-img d-flex justify-content-center p-1">
-            <img src="SrcImg/CC.png" alt="" width="100" height="100">
-          </div>
-          <div class="card-body">
-            <h6>C# Programming</h6>
-            <p class=" small fw-semibold text-primary text-center">$10</p>
-          </div>
-          <div class="card-footer border-0 d-flex justify-content-end">
-            <div class="col-6">
-                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-            </div>
-            <div class="col-6">
-                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-           </div>
-     </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="card shadow-sm border-0">
-          <div class="card-img d-flex justify-content-center p-1">
-            <img src="SrcImg/Julia.jfif" alt="" width="100" height="100">
-          </div>
-          <div class="card-body">
-            <h6>Julia Programming</h6>
-            <p class="text-center fw-semibold text-primary">$10</p>
-          </div>
-          <div class="card-footer border-0 d-flex justify-content-end">
-            <div class="col-6">
-                   <button class="btn btn-danger border-0  p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
-
-            </div>
-            <div class="col-6">
-                   <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
-
-           </div>
-         </div>
-        </div>
-      </div>
-      
   </div>
 
+  <div class="row mt-1 d-flex">
 
-  
-  </section>
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/book2.jpg" alt="Python" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Python</h6>
+          <details>
+            <summary>Introduction to Python</summary>
+            <p>Python is a versatile, high-level programming language known for its readability and ease of use. Ideal for beginners and experts alike, Python supports various programming paradigms, including procedural, object-oriented, and functional programming. It's widely used in web development, data science, artificial intelligence, and more.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Java.png" alt="Java Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Java Programming</h6>
+          <details>
+            <summary>Introduction to Java</summary>
+            <p>Java is a robust, object-oriented programming language designed for portability across platforms. With its "write once, run anywhere" capability, Java is commonly used in enterprise applications, web development, and Android app development. Its strong memory management and exception handling features make it a popular choice for complex systems.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Ruby.jfif" alt="Ruby Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Ruby Programming</h6>
+          <details>
+            <summary>Introduction to Ruby</summary>
+            <p>Ruby is a dynamic, object-oriented language known for its simplicity and productivity. With an elegant syntax that is easy to read and write, Ruby is often used in web development, particularly with the Ruby on Rails framework. It's designed to make programming both enjoyable and productive.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Cobol.jfif" alt="Cobol Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Cobol Programming</h6>
+          <details>
+            <summary>Introduction to Cobol</summary>
+            <p>COBOL (Common Business-Oriented Language) is a language designed for business applications. Its readability and straightforward syntax make it suitable for writing large-scale business applications and systems. COBOL is commonly used in legacy systems within financial institutions and government agencies.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Js.jfif" alt="JavaScript Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>JavaScript Programming</h6>
+          <details>
+            <summary>Introduction to JavaScript</summary>
+            <p>JavaScript is a versatile scripting language primarily used for enhancing web pages with dynamic and interactive features. It’s an essential part of web development, enabling client-side scripting to create responsive user interfaces and improve user experience. JavaScript frameworks and libraries like React and Node.js have expanded its use to server-side development as well.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Asp.jfif" alt="ASP Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>ASP Programming</h6>
+          <details>
+            <summary>Introduction to ASP.NET</summary>
+            <p>ASP.NET is a framework for building dynamic web applications using .NET. It enables developers to create scalable and high-performance web applications with features like server-side scripting, authentication, and integration with databases. ASP.NET supports multiple programming languages, including C# and VB.NET.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/PHP.jfif" alt="PHP Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>PHP Programming</h6>
+          <details>
+            <summary>Introduction to PHP</summary>
+            <p>PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. Known for its ease of embedding within HTML, PHP is widely used for creating interactive websites and applications. It supports a wide range of databases and is integral to many content management systems like WordPress.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Scala.jfif" alt="Scala Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Scala Programming</h6>
+          <details>
+            <summary>Introduction to Scala</summary>
+            <p>Scala is a language that fuses functional and object-oriented programming paradigms. Its concise syntax and powerful features, such as pattern matching and immutability, make it a popular choice for big data processing with frameworks like Apache Spark. Scala runs on the Java Virtual Machine (JVM) and is interoperable with Java.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImG/VB.png" alt="VB Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>VB Programming</h6>
+          <details>
+            <summary>Introduction to VB</summary>
+            <p>Visual Basic (VB) is an event-driven programming language developed by Microsoft. Known for its simplicity and ease of use, VB is used to develop Windows applications with a graphical user interface. It provides a straightforward approach to programming with a strong emphasis on rapid application development.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/F.jfif" alt="F# Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>F# Programming</h6>
+          <details>
+            <summary>Introduction to F#</summary>
+            <p>F# is a functional-first programming language that runs on the .NET platform. It emphasizes immutability and declarative programming, making it suitable for tasks involving complex data processing and mathematical computations. F# is also used for developing reliable and scalable applications with robust type inference and pattern matching features.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Julia.jfif" alt="Julia Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Julia Programming</h6>
+          <details>
+            <summary>Introduction to Julia</summary>
+            <p>Julia is a high-performance language designed for numerical and scientific computing. Its ability to handle complex mathematical computations with speed and efficiency makes it ideal for data analysis, machine learning, and large-scale numerical simulations. Julia's syntax is similar to other technical computing languages, making it accessible to scientists and engineers.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mb-3">
+      <div class="card shadow-sm border-0">
+        <div class="card-img d-flex justify-content-center p-1">
+          <img src="SrcImg/Ruby.jfif" alt="Ruby Programming" width="100" height="100">
+        </div>
+        <div class="card-body">
+          <h6>Ruby Programming</h6>
+          <details>
+            <summary>Introduction to Ruby</summary>
+            <p>Ruby is a dynamic, object-oriented language known for its simplicity and productivity. With an elegant syntax that is easy to read and write, Ruby is often used in web development, particularly with the Ruby on Rails framework. It's designed to make programming both enjoyable and productive.</p>
+          </details>
+          <p class="text-center fw-semibold text-primary">$10</p>
+        </div>
+        <div class="card-footer border-0 d-flex justify-content-end">
+          <div class="col-6">
+            <button class="btn btn-danger border-0 p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-bookmark-heart"></i> Save</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-success p-1" style="font-size: 12px; width: 60px;"><i class="bi bi-cart"></i> Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
   
 
 
@@ -459,174 +462,137 @@
 
 
   <div class="container d-flex w-100 p-0 m-2  h-100">
-
+   
     <div class="row w-100 p-0">
-      <div class="col-2 bg-success d-flex flex-column align-items-center">
-          <div class="mt-4">
+   
+      <div class="col-12 d-flex flex-column justify-content-start">
+        <div class="row  mt-0">
+          <div class="image-wrapper d-flex justify-content-center">
               <img src="SrcImg/um.png" alt="Um Logo" style="border-radius: 50%;" width="150px" height="150px" class="mx-auto d-block img-back">
-              <h5 class="text-center mt-2 text-white">The University Of Manila</h5>
-              <p class="text-white " style="text-align: left;">546 M.V. Delos Santos Street, Sampaloc, Manila.</p>
-              <img src="SrcImg/UM1.jpg" alt="Um" width="150px" height="150px" class="mx-auto d-block img-back rounded-2 mt-2">
-              <img src="SrcImg/UM2.jpg" alt="Um" width="150px" height="150px" class="mx-auto d-block img-back rounded-2 mt-2">
-              <img src="SrcImg/UM3.jpg" alt="Um" width="150px" height="150px" class="mx-auto d-block img-back rounded-2 mt-2">
-              <img src="SrcImg/UM4.jpg" alt="Um" width="150px" height="150px" class="mx-auto d-block img-back rounded-2 mt-2">
-              <img src="SrcImg/UM5.jpg" alt="Um" width="150px" height="150px" class="mx-auto d-block img-back rounded-2 mt-2">
-
           </div>
-      </div>
-      <div class="col-10 d-flex flex-column justify-content-start">
-
-        <div class="row p-2">
-          <h4 class=" text-white text-center">UM HYMN</h4>
-
-          <p  style="text-align: center;" class="text-white">
-            U.M. FOREVER <br>
-            U.MI oh, U.M forever <br>
-            Alma mater, dear, we hail!<br>
-            We'll always wave your banner<br>
-            With the glorious U.M so dear<br>
-            As faithful sons, of dear U.M<br>
-            We will honor you forever,<br>
-            We'll cheer for you,<br>
-            Always love you<br>
-            Onward U. M ever hail!
-          </p>
-        
-   
-            
-      
+          <h5 class="ns text-center mt-2 text-white">The University Of Manila Computer Science</h5>
         </div>
-
-        <div class="row  p-2 " >
-          <p class=" text-wrap text-white"  style="text-align: justify;">
-            On October 5, 1913, a group of four young men and a woman, with ages from fifteen to twenty-one met for breakfast at the Palma de Mallorca, a popular restaurant beside the Sto. Domingo Church in Intramuros, Manila.
-            The five were Dr. Apolinario G. de los Santos, his brother, Dr. Mariano V. de los Santos, his sister, Maria de los Santos, and two friends Dr. Buenaventura J. Bello and Atty. Antonio Rivero. They were only college students then, who were more daring than their contemporaries for they were determined to pursue their dream of putting up a school suited to the needs of the Filipino youth.
-            OThese impecunious young people, as they were called by the university historian, encountered many challenges in realizing their dream of establishing an institution whose motto was “Patria, Scientia, et Virtus. They named their school Instituto de Manila, after the city of their affection and Apolinario de los Santos was elected as the first director of the school.
-          </p>
-          <p class=" text-wrap text-white" style="text-align: justify;">
-            These impecunious young people, as they were called by the university historian, encountered many challenges in realizing their dream of establishing an institution whose motto was “Patria, Scientia, et Virtus. They named their school Instituto de Manila, after the city of their affection and Apolinario de los Santos was elected as the first director of the school.</p>
-   <p class=" text-wrap text-white" style="text-align: justify;"> The doors of the Instituto de Manila were first opened in school year 1914-1915. The forerunner of this institution offered only elementary and high school courses in a leased building located at the corner of Madrid and Peñarubia streets, Binondo District. However, in school year 1919-1920, in order to accommodate its growing populace and to provide them with better facilities, the Instituto de Manila started conducting classes in its own building at the Sampaloc District.</p>
-   
-   
-   <p class=" text-wrap text-white" style="text-align: justify;">Before embarking on a program of expansion in order to meet the educational needs of its constituency, the Instituto de Manila had to undergo internal changes. On the occasion of its eighth anniversary, the original incorporators unanimously agreed to effect a reorganization geared towards the attainment of a university status. As a result, the Instituto de Manila was re-incorporated as the University of Manila on November 3, 1921 under the provisions of Act No. 1459 of the former Philippine Legislature.
-    Right after its re-incorporation, the University focused on providing more course offerings for their growing clientele. The growth and expansion marked the turning point of this democratic and dynamic institution which has withstood the test of time. The University has survived two world wars and the bewildering changes in the country and of the world: ideological, social, economic, and political.
-    The mustard seed that was the University of Manila continues to show impressive growth and expansion. In March 1919, the College of Law was formally opened. In the following year, 1920, the College of Liberal of Arts was also opened. In 1922-1923, three colleges: College of Philosophy and Letters, College of Education, and College of Business Administration were opened while the Department of Graduate Studies was opened in 1941. In December, 1945, the College of Engineering was opened and in the following year, 1946, the Academy of Music and the School of Foreign Service were born.
-    The College of Law was given government recognition on November 1, 1920. It was formally incorporated into the University during the academic year 1921-1922. Barely, after two years of its founding, the College of Law caught public attention and gained popular acclaim when two of its graduates: Pablo Payawal, who later became a prominent law practitioner, and Jose Carlos, who became a judge, copped the first and second places, respectively, in the 1920 Bar Examinations.
-    Three years later, former Civil Service Commissioner Amado Del Rosario and Cipriano Primicias who became a majority floor leader in the defunct Senate and who was one of the vice-presidential nominees for the 1961 national elections, followed suit by garnering the second and sixth places, respectively, in the 1922 Bar Examinations. And during the three years that followed, the graduates of the College easily hurdled the Bar with 100 percent passing average. This achievement of the College was so impressive that the pre-war Tribune and Philippine Herald newspapers were all praises for the University of Manila.
-    In 1933, Lope Quimbo, Manuel Alvero, and Guillermo Blanco became the first, second, and tenth placers in the Bar Examinations respectively. In 1936, the College again produced another batch of topnotchers where Teodorico Martin was the sixth placer who became the Dean of the College of Law of the University of the East. Again, in 1937, Sixto Domondon copped the tenth place in the Bar Examinations. To continue, in 1938, Emmanuel Pelaez, who was to become Vice-President of the Philippines, led that year’s Bar Examinations “elite” by copping the first place. With Emmanuel Pelaez there were also two topnotchers, namely Rodegelio Jalandoni, sixth placer, and Pedro Bacerro, the seventh placer in the Bar Examinations. In 1940, the College again showed its impressive performance by having Delfin De Vera garnering the fourth place in the Bar.
-    During the post-war years, the College of Law reasserted its Bar supremacy by producing topnotchers. In 1948, Jose M. Evangelista, who was to become ambassador, placed second and established a record high rating of 95.04 percent. Moreover, this feat was duplicated in 1949 by Dominador R. Aytona who also captured the second place. Aytona became a vice-presidential nominee in 1961 under the Nacionalista Party banner. Two years later, in 1951, Vicente Acsay kept up the excellent performance of the College by notching the first place in the Bar Examinations. The good showing of the College continued, for in 1953, Leonardo Amores, who was to become the illustrious faculty member of the College hit the same spot with the highest rating of 95.03 percent.
-    Up to the present year, the College of Law graduates fared exceedingly well in the bar examinations with ratings above the national passing percentage. In 2006, the College of Law graduates obtained a 75 percent passing in the Bar Examinations, again proving the quality of education being sustained throughout the years by the University of Manila.
-    To show the march to progress of the University, in 1949, courses were offered in Master of Arts in Political Science in the Department of Graduate Studies, followed by the opening of Master of Arts in History and Bachelor of Science in Elementary Education in 1951. Then, from 1963 to 1966, courses in the College of Criminology and Penology, the School of Secretarial Science and the master’s degree in Public Administration were offered. On June 7, 1976, the following two-year courses were offered— in Police Science and Technology, in Library Science, and in Bookkeeping; one-year course in Hotel and Restaurant Management and one-year course in Tourism.
-         
-  </p>
-
-  <p class="text-wrap text-white"  style="text-align: justify;">The sustainable growth and expansion of the University were the products of the highly innovative, creative, and brilliant minds of those who occupied the presidency. Dr. Apolinario de los Santos was the University President from its inception until 1927. His successor was Dr. Mariano V. de los Santos, who assumed the presidency at the age of 29, and it is a matter of record and source of pardonable pride that he held the distinction of being the youngest university president in the Philippines, in Asia, and in the whole world. Dr. Mariano V. de los Santos co-founded the Philippine Association of Colleges and Universities (PACU) and was elected as its President from 1938 to 1939 and from 1955 to 1958. He also co-founded the United Nations Association of the Philippines. Moreover, he is the adviser on educational matters to six Philippine Presidents: Manuel L. Quezon, Jose P. Laurel, Manuel Roxas, Elpidio Quirino, Ramon Magsaysay and Carlos P. Garcia. He was president of the University until his untimely demise on October 13, 1959.
-      The unfinished task of leading the University was continued by Madame Helen de los Santos, who was described by the late Dr. Mariano V. de los Santos in his book, “Education and Life” as his life partner “who has shared with me all the tribulations of life but cared little for its vainglories.” One of the pioneers in education and a compleat Filipino woman, Madame Helen de los Santos held the presidency with distinction from 1959 to 1981.</p>
-  <p class="text-wrap text-white"  style="text-align: justify;">
-    Another chapter in UM history unfolded when Dr. Virgilio de los Santos (from the second generation of the de los Santoses) took over the presidency in 1981. With him at the helm, the University continually strived to strengthen its commitment to total academic excellence. The University has remained true to its trilogy of ideals: Patria, Scientia, et Virtus.
-It envisions a dynamic community that is deeply steeped in the trilogy of UM Ideals: love of country, love of science and love of virtue; fully equipped with humane, conceptual, and technological skills; firmly determined to make life for others better, brighter, lighter and more livable, by making quality education accessible to all. The Motto of the University is to acquire knowledge and skills for the benefit of mankind.
-Its Mission aims to create an atmosphere of academic excellence and competence, that is, firmly anchored in love of country, science and virtue; where citizens deeply concerned and truly committed to respond to the socio-cultural, psycho-spiritual and politico-economic challenges of the contemporary Filipino community are formed; fully empowered with modern scientific technological skills with which to brave the challenges of the global society.
-  </p>
-
-  <p class="text-wrap text-white"  style="text-align: justify;">
-
-    Under the vigilant stewardship of Dr. Virgilio de los Santos, the University has been placed to a higher level of credit and standard. In line with the thrusts of the government and to keep abreast with the demands of the modern times, on February 16, 1994, the University offered four-year courses in Hotel and Restaurant Management and Computer Science. To show further that the University of Manila has come of age and in response to the call of the 90’s, on February 21, 1994, it offered new courses in the following programs: Doctor of Education, Doctor of Public Administration, and Master of Business Administration. These programs are designed to provide administrators, businessmen, analysts, researchers, and educators with the theoretical background, values, competencies, and skills for them to be able to participate and contribute to the growth and development of a better and a more humane society.
-  </p>
-
-  <p class="text-wrap text-white"  style="text-align: justify;">
-
-    Dr. Virgilio de los Santos as a vanguard to Philippine and Japan relations received the highest honor the Emperor of Japan can give to a foreign national; the Rising Sun Medal of Honor.
-  </p>
-  <p class="text-wrap text-white"  style="text-align: justify;">
-
-    On April 3, 2003, the University was granted the government permit to offer the four-year Bachelor of Arts in Cultural Languages, major in the Japanese Language. The University of Manila is the first university in the Philippines recognized to offer a degree course in the Japanese Language.
-  </p>
-  <p class="text-wrap text-white"  style="text-align: justify;">
-
-    To add to this legacy, on November 7, 2005 a new four-storey building was constructed for the International Language School (ILS). The International Language School offers courses in the English language to foreign students like the Chinese, Japanese, and Koreans. It also offered courses in the Chinese language and Nihongo (Nippongo) language. The ILS building likewise provides accommodations for foreign students while they are studying. Thus, with these developments, the leaders of the University continually strive to realize the vision and mission of the institution and, that is, academic excellence imbued with values, not only for the Filipino youth but also for those of our neighboring countries.
-  </p>
-
-  <p class="text-wrap text-white"  style="text-align: justify;">
-
-    In 2006, Dr. Emily Dodson De Leon the Senior Vice-President and Chief Academic Officer was elected by the Board of Trustees as President of the University of Manila. In 2007, Madame President Emily Dodson De Leon became the first Vice-President of PACU (Philippine Association of Colleges and Universities).  </p>
-  <p class="text-wrap text-white"  style="text-align: justify;">
-
-    With her dynamic administration and dauntless leadership, the University has remained to be an institution to reckon with. She is the vital mover behind the sustainable progress of the University by initiating innovations and modern strategies in promoting quality education and these are shown when the University was granted by PACUCOA a formal accredited status for the College of Education for its two programs: Bachelor in Secondary Education and Bachelor in Elementary Education and the College of Business Administration.  </p>
-
-        </div>
-
         <div class="row p-2">
-          <p class="text-wrap text-white" style="text-align: left;">
-          </p>
-      </div>
-     
-
-      </div>
-  </div>
-     
-
-
-  </div>
-
+          <div class="container d-flex w-100 p-0 m-2  h-100">
   
-</section>
-
-
-  <!--UM HISTORY-->
-
-  <section id="umHistory" class="mt-4 bg-primary p-0 shadow-sm" style="background-image: url('SrcImg/removebgEagle.png');background-repeat: no-repeat;background-position:right; background-size: contain;">
-
-
-    <div class="container d-flex w-100 p-0 m-2  h-100">
-
-      <div class="row w-100 p-0">
-        <div class="col-2 bg-success d-flex flex-column align-items-center">
-            <div class="mt-4">
-                <img src="SrcImg/um.png" alt="Um Logo" style="border-radius: 50%;" width="150px" height="150px" class="mx-auto d-block img-back">
-                <h5 class="text-center mt-2 text-white">The University Of Manila</h5>
-            </div>
-        </div>
-        <div class="col-10 d-flex flex-column justify-content-start">
-
-          <div class="row p-2">
-            <h5 class=" text-white mt-4">Mission</h5>
-
-            <p class="text-wrap mt-lg-4  text-white" style="text-align: justify;">
-                <span class="text-success fw-bold">ACE</span> - to accomplish something with complete success.
-            </p>
-            <p class="text-wrap   text-white" style="text-align: justify;">
-                <span class="text-success fw-bold">A</span> - anchor in the hearts of the youth the love of country, science, and virtue.
-            </p>
-            <p class="text-wrap  text-white" style="text-align: justify;">
-                <span class="text-success fw-bold">C</span> - create an atmosphere of academic excellence and competence.
-            </p>
-            <p class="text-wrap  text-white"  style="text-align: justify;">
-                <span class="text-success fw-bold">E</span> - empower the youth with modern scientific technological skills <br>
-                 in braving the challenges of the global society.
-            </p>
+            <div class="row p-0">
+          
+              <div class="col-12 d-flex flex-column justify-content-start">
+        
+                <div class="row p-2">
+                  <h4 class=" text-white text-center">UM HYMN</h4>
+        
+                  <p  style="text-align: center;text-indent: 40px;" class="text-white">
+                    U.M. FOREVER <br>
+                    U.MI oh, U.M forever <br>
+                    Alma mater, dear, we hail!<br>
+                    We'll always wave your banner<br>
+                    With the glorious U.M so dear<br>
+                    As faithful sons, of dear U.M<br>
+                    We will honor you forever,<br>
+                    We'll cheer for you,<br>
+                    Always love you<br>
+                    Onward U. M ever hail!
+                  </p>
+                
+           
+                    
+              
+                </div>
+        
+                <div class="row  p-2 " >
+                  <div class="img-wrapper d-flex justify-content-center">
+                    <img src="SrcImg/UM1.jpg" alt="" width="150" height="150">
+      
+                  </div>
+                  <p class=" text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+                    On October 5, 1913, a group of four young men and a woman, with ages from fifteen to twenty-one met for breakfast at the Palma de Mallorca, a popular restaurant beside the Sto. Domingo Church in Intramuros, Manila.
+                    The five were Dr. Apolinario G. de los Santos, his brother, Dr. Mariano V. de los Santos, his sister, Maria de los Santos, and two friends Dr. Buenaventura J. Bello and Atty. Antonio Rivero. They were only college students then, who were more daring than their contemporaries for they were determined to pursue their dream of putting up a school suited to the needs of the Filipino youth.
+      
+                    These impecunious young people, as they were called by the university historian, encountered many challenges in realizing their dream of establishing an institution whose motto was “Patria, Scientia, et Virtus. They named their school Instituto de Manila, after the city of their affection and Apolinario de los Santos was elected as the first director of the school.
+                  </p>
+                  <div class="img-wrapper d-flex justify-content-center">
+                    <img src="SrcImg/UM2.jpg" alt="" width="150" height="150">
+      
+                  </div>
+                  <p class=" text-wrap text-white" style="text-align: justify;text-indent: 40px;">
+                    These impecunious young people, as they were called by the university historian, encountered many challenges in realizing their dream of establishing an institution whose motto was “Patria, Scientia, et Virtus. They named their school Instituto de Manila, after the city of their affection and Apolinario de los Santos was elected as the first director of the school.</p>
+           <p class=" text-wrap text-white" style="text-align: justify;text-indent: 40px;"> The doors of the Instituto de Manila were first opened in school year 1914-1915. The forerunner of this institution offered only elementary and high school courses in a leased building located at the corner of Madrid and Peñarubia streets, Binondo District. However, in school year 1919-1920, in order to accommodate its growing populace and to provide them with better facilities, the Instituto de Manila started conducting classes in its own building at the Sampaloc District.</p>
+           
+           
+           <p class=" text-wrap text-white" style="text-align: justify;text-indent: 40px;">Before embarking on a program of expansion in order to meet the educational needs of its constituency, the Instituto de Manila had to undergo internal changes. On the occasion of its eighth anniversary, the original incorporators unanimously agreed to effect a reorganization geared towards the attainment of a university status. As a result, the Instituto de Manila was re-incorporated as the University of Manila on November 3, 1921 under the provisions of Act No. 1459 of the former Philippine Legislature.
+            Right after its re-incorporation, the University focused on providing more course offerings for their growing clientele. The growth and expansion marked the turning point of this democratic and dynamic institution which has withstood the test of time. The University has survived two world wars and the bewildering changes in the country and of the world: ideological, social, economic, and political.
+            The mustard seed that was the University of Manila continues to show impressive growth and expansion. In March 1919, the College of Law was formally opened. In the following year, 1920, the College of Liberal of Arts was also opened. In 1922-1923, three colleges: College of Philosophy and Letters, College of Education, and College of Business Administration were opened while the Department of Graduate Studies was opened in 1941. In December, 1945, the College of Engineering was opened and in the following year, 1946, the Academy of Music and the School of Foreign Service were born.
+            The College of Law was given government recognition on November 1, 1920. It was formally incorporated into the University during the academic year 1921-1922. Barely, after two years of its founding, the College of Law caught public attention and gained popular acclaim when two of its graduates: Pablo Payawal, who later became a prominent law practitioner, and Jose Carlos, who became a judge, copped the first and second places, respectively, in the 1920 Bar Examinations.
+            Three years later, former Civil Service Commissioner Amado Del Rosario and Cipriano Primicias who became a majority floor leader in the defunct Senate and who was one of the vice-presidential nominees for the 1961 national elections, followed suit by garnering the second and sixth places, respectively, in the 1922 Bar Examinations. And during the three years that followed, the graduates of the College easily hurdled the Bar with 100 percent passing average. This achievement of the College was so impressive that the pre-war Tribune and Philippine Herald newspapers were all praises for the University of Manila.
+            In 1933, Lope Quimbo, Manuel Alvero, and Guillermo Blanco became the first, second, and tenth placers in the Bar Examinations respectively. In 1936, the College again produced another batch of topnotchers where Teodorico Martin was the sixth placer who became the Dean of the College of Law of the University of the East. Again, in 1937, Sixto Domondon copped the tenth place in the Bar Examinations. To continue, in 1938, Emmanuel Pelaez, who was to become Vice-President of the Philippines, led that year’s Bar Examinations “elite” by copping the first place. With Emmanuel Pelaez there were also two topnotchers, namely Rodegelio Jalandoni, sixth placer, and Pedro Bacerro, the seventh placer in the Bar Examinations. In 1940, the College again showed its impressive performance by having Delfin De Vera garnering the fourth place in the Bar.
+            During the post-war years, the College of Law reasserted its Bar supremacy by producing topnotchers. In 1948, Jose M. Evangelista, who was to become ambassador, placed second and established a record high rating of 95.04 percent. Moreover, this feat was duplicated in 1949 by Dominador R. Aytona who also captured the second place. Aytona became a vice-presidential nominee in 1961 under the Nacionalista Party banner. Two years later, in 1951, Vicente Acsay kept up the excellent performance of the College by notching the first place in the Bar Examinations. The good showing of the College continued, for in 1953, Leonardo Amores, who was to become the illustrious faculty member of the College hit the same spot with the highest rating of 95.03 percent.
+            Up to the present year, the College of Law graduates fared exceedingly well in the bar examinations with ratings above the national passing percentage. In 2006, the College of Law graduates obtained a 75 percent passing in the Bar Examinations, again proving the quality of education being sustained throughout the years by the University of Manila.
+            To show the march to progress of the University, in 1949, courses were offered in Master of Arts in Political Science in the Department of Graduate Studies, followed by the opening of Master of Arts in History and Bachelor of Science in Elementary Education in 1951. Then, from 1963 to 1966, courses in the College of Criminology and Penology, the School of Secretarial Science and the master’s degree in Public Administration were offered. On June 7, 1976, the following two-year courses were offered— in Police Science and Technology, in Library Science, and in Bookkeeping; one-year course in Hotel and Restaurant Management and one-year course in Tourism.
+      
+                 
+          </p>
+          <div class="img-wrapper d-flex justify-content-center">
+            <img src="SrcImg/UM3.jpg" alt="" width="150" height="150">
+      
+          </div>
+        
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">The sustainable growth and expansion of the University were the products of the highly innovative, creative, and brilliant minds of those who occupied the presidency. Dr. Apolinario de los Santos was the University President from its inception until 1927. His successor was Dr. Mariano V. de los Santos, who assumed the presidency at the age of 29, and it is a matter of record and source of pardonable pride that he held the distinction of being the youngest university president in the Philippines, in Asia, and in the whole world. Dr. Mariano V. de los Santos co-founded the Philippine Association of Colleges and Universities (PACU) and was elected as its President from 1938 to 1939 and from 1955 to 1958. He also co-founded the United Nations Association of the Philippines. Moreover, he is the adviser on educational matters to six Philippine Presidents: Manuel L. Quezon, Jose P. Laurel, Manuel Roxas, Elpidio Quirino, Ramon Magsaysay and Carlos P. Garcia. He was president of the University until his untimely demise on October 13, 1959.
+              The unfinished task of leading the University was continued by Madame Helen de los Santos, who was described by the late Dr. Mariano V. de los Santos in his book, “Education and Life” as his life partner “who has shared with me all the tribulations of life but cared little for its vainglories.” One of the pioneers in education and a compleat Filipino woman, Madame Helen de los Santos held the presidency with distinction from 1959 to 1981.</p>
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+            Another chapter in UM history unfolded when Dr. Virgilio de los Santos (from the second generation of the de los Santoses) took over the presidency in 1981. With him at the helm, the University continually strived to strengthen its commitment to total academic excellence. The University has remained true to its trilogy of ideals: Patria, Scientia, et Virtus.
+            It envisions a dynamic community that is deeply steeped in the trilogy of UM Ideals: love of country, love of science and love of virtue; fully equipped with humane, conceptual, and technological skills; firmly determined to make life for others better, brighter, lighter and more livable, by making quality education accessible to all. The Motto of the University is to acquire knowledge and skills for the benefit of mankind.
+            Its Mission aims to create an atmosphere of academic excellence and competence, that is, firmly anchored in love of country, science and virtue; where citizens deeply concerned and truly committed to respond to the socio-cultural, psycho-spiritual and politico-economic challenges of the contemporary Filipino community are formed; fully empowered with modern scientific technological skills with which to brave the challenges of the global society.
+          </p>
+        
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+        
+            Under the vigilant stewardship of Dr. Virgilio de los Santos, the University has been placed to a higher level of credit and standard. In line with the thrusts of the government and to keep abreast with the demands of the modern times, on February 16, 1994, the University offered four-year courses in Hotel and Restaurant Management and Computer Science. To show further that the University of Manila has come of age and in response to the call of the 90’s, on February 21, 1994, it offered new courses in the following programs: Doctor of Education, Doctor of Public Administration, and Master of Business Administration. These programs are designed to provide administrators, businessmen, analysts, researchers, and educators with the theoretical background, values, competencies, and skills for them to be able to participate and contribute to the growth and development of a better and a more humane society.
+          </p>
+          <div class="img-wrapper d-flex justify-content-center">
+            <img src="SrcImg/UM4.jpg" alt="" width="150" height="150">
+      
+          </div>
+        
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+        
+            Dr. Virgilio de los Santos as a vanguard to Philippine and Japan relations received the highest honor the Emperor of Japan can give to a foreign national; the Rising Sun Medal of Honor.
+          </p>
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+        
+            On April 3, 2003, the University was granted the government permit to offer the four-year Bachelor of Arts in Cultural Languages, major in the Japanese Language. The University of Manila is the first university in the Philippines recognized to offer a degree course in the Japanese Language.
+          </p>
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+        
+            To add to this legacy, on November 7, 2005 a new four-storey building was constructed for the International Language School (ILS). The International Language School offers courses in the English language to foreign students like the Chinese, Japanese, and Koreans. It also offered courses in the Chinese language and Nihongo (Nippongo) language. The ILS building likewise provides accommodations for foreign students while they are studying. Thus, with these developments, the leaders of the University continually strive to realize the vision and mission of the institution and, that is, academic excellence imbued with values, not only for the Filipino youth but also for those of our neighboring countries.
+          </p>
+          <div class="img-wrapper d-flex justify-content-center">
+            <img src="SrcImg/UM5.jpg" alt="" width="150" height="150">
+      
+          </div>
+        
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+        
+            In 2006, Dr. Emily Dodson De Leon the Senior Vice-President and Chief Academic Officer was elected by the Board of Trustees as President of the University of Manila. In 2007, Madame President Emily Dodson De Leon became the first Vice-President of PACU (Philippine Association of Colleges and Universities).  </p>
+          <p class="text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+        
+            With her dynamic administration and dauntless leadership, the University has remained to be an institution to reckon with. She is the vital mover behind the sustainable progress of the University by initiating innovations and modern strategies in promoting quality education and these are shown when the University was granted by PACUCOA a formal accredited status for the College of Education for its two programs: Bachelor in Secondary Education and Bachelor in Elementary Education and the College of Business Administration.  </p>
+        
+                </div>
+        
+                <div class="row p-2">
+                  <p class="text-wrap text-white" style="text-align: left;text-indent: 40px;">
+                  </p>
+              </div>
+             
+        
+              </div>
+          </div>
+             
+        
         
           </div>
-
-          <div class="row  p-2 " >
-            <h5 class="mt-4 text-white">Vision</h5>
-            <p class=" text-wrap text-white"  style="text-align: left;">
-                      To impart to the future generations the University of Manila <br>
-                      trilogy of ideals: love of country, love of science and love of virtue,<br>
-                      in making the lives of others better, brighter, lighter <br>and more liveable by making quality education accessible to all.
-            </p>
-          </div>
-
-          <div class="row p-2">
-            <h5 class="text-white">Motto</h5>
-            <p class="text-wrap text-white" style="text-align: left;">
-                To acquire knowledge and skills for the benefit of mankind.
-            </p>
-        </div>
-       
-
-        </div>
-    </div>
-       
+      
 
 
     </div>
@@ -637,24 +603,28 @@ Its Mission aims to create an atmosphere of academic excellence and competence, 
 
   <!--CS HISTORY-->
 
-  <section id="umHistory" class="mt-4 bg-primary p-0 shadow-sm" style="background-repeat: no-repeat;background-position:right; background-size: contain;">
+  <section id="csHistory" class="mt-4 bg-primary p-0 shadow-sm" style="background-repeat: no-repeat;background-position:right; background-size: contain;">
 
 
     <div class="container d-flex w-100 p-0 m-2  h-100">
 
       <div class="row w-100 p-0">
-        <div class="col-2 bg-danger d-flex flex-column align-items-center">
-            <div class="mt-4">
-                <img src="SrcImg/LOGOCS.png" alt="Um Logo" style="border-radius: 50%;" width="150px" height="150px" class="mx-auto d-block img-back">
-                <h5 class="text-center mt-2 text-white">The University Of Manila</h5>
-            </div>
-        </div>
-        <div class="col-10 d-flex flex-column justify-content-start">
+        
+              
+        
+        <div class="col-12 d-flex flex-column justify-content-start">
 
+          <div class="row  mt-0">
+            <div class="image-wrapper d-flex justify-content-center">
+              <img src="SrcImg/LOGOCS.png" alt="Um Logo" style="border-radius: 50%;" width="150px" height="150px" class="mx-auto d-block img-back">
+            </div>
+            <h5 class="ns text-center mt-2 text-white">The University Of Manila Computer Science</h5>
+          </div>
           <div class="row p-2">
+          
             <h5 class=" text-white mt-4">Computer Science History</h5>
 
-            <p class="text-wrap text-white" style="text-align: justify;">
+            <p class="text-wrap text-white" style="text-align: justify;text-indent: 40px;">
                             Welcome to the College of Computer Science and Information Technology of The University of Manila.
                             We're committed to advancing the state of the art in Computer Science and Information Technology, and to providing a challenging and exciting education for our students. 
                             Faculty members maintain active programs of research and publication in computer vision, programming languages, machine learning, databases, modeling and simulation, and the theory of computation. 
@@ -663,64 +633,27 @@ Its Mission aims to create an atmosphere of academic excellence and competence, 
             </p>
             <h5 class="text-white">GENERAL OBJECTIVES</h5>
 
-            <p class=" text-wrap text-white"  style="text-align: justify;">
+            <p class=" text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
                The University of Manila College of Computer Science / Information Technology aims to produce technological and scientifically empowered professionals, informational technology / computer science experts whose breadth and depth of orientation, knowledge and training, are within global standards, who shall be committed to share their expertise
                with the various sectors of the academic community and the community at large, ever motivated to share their concepts, their technological skills, their persons to everyone embedded in the UM trilogy of ideals: 
                Love of Country (Patria), Love of Science (Scientia), and Love of Virtue (Virtus).            </p>
 
             <h5 class="text-white">SPECIFIC OBJECTIVES</h5>
-            <p class="text-wrap text-white " style="text-align: justify;">
+            <p class="text-wrap text-white " style="text-align: justify;text-indent: 40px;">
               To equip students with the skills and competencies in information communications technology, its operation, language and design.
               To prepare would-be information technology / computer science graduates with a solid foundation on the various languages, programs and systems to enable them to perform with confidence the varied tasks that may be expected of them the global organizations of the corporate world.
 
             </p>
 
-        
-          </div>
 
-           
-       
-
-        </div>
-    </div>
-       
-
-
-    </div>
-
-    
- </section>
-
-  <!--CS HISTORY-->
-
-  <section id="umHistory" class="mt-4 bg-primary p-0 shadow-sm" style="background-repeat: no-repeat;background-position:right; background-size: contain;">
-
-
-    <div class="container d-flex w-100 p-0 m-2  h-100">
-
-      <div class="row w-100 p-0">
-        <div class="col-2 bg-danger d-flex flex-column align-items-center">
-            <div class="mt-4">
-                <img src="SrcImg/LOGOCS.png" alt="Um Logo" style="border-radius: 50%;" width="150px" height="150px" class="mx-auto d-block img-back">
-                <h5 class="text-center mt-2 text-white">The University Of Manila</h5>
-            </div>
-        </div>
-        <div class="col-10 d-flex flex-column justify-content-start">
-
-          <div class="row p-2">
-
-            <p class="text-wrap mt-2  text-white" style="text-align: justify;">
+            <p class="text-wrap mt-2  text-white" style="text-align: justify;text-indent: 40px;">
               DR. RICHARD D. DE LEON Dean, College of Computer Science & Engineering PROF. STANLEY P. VERDE Assistant Dean, College of Computer Science & Information Technology. Under the vigilant stewardship of Dr. Virgilio de los Santos, the University has been placed to a higher level of credit and standard. In line with the thrusts of the government and to keep abreast with the demands of the modern times, on February 16, 1994, the University offered four-year courses in Computer Science. To show further that the University of Manila has come of age and in response to the call of the 90’s, on February 21, 1994, it offered new courses in the following programs: Doctor of Education, Doctor of Public Administration, and Master of Business Administration.
               These programs are designed to provide administrators, businessmen, analysts, researchers, and educators with the theoretical background, values, competencies, and skills for them to be able to participate and contribute to the growth and development of a better and a more humane society.            </p>
 
             </p>
 
-        
-          </div>
-
-          <div class="row  p-2 M-0" >
             <h5 class="text-white">Computer Science Professors</h5>
-            <p class=" text-wrap text-white"  style="text-align: justify;">
+            <p class=" text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
               DR. RICHARD D. DE LEON
               Dean, College of Computer Science & Engineering
               PROF. MARJORIE BORCES
@@ -731,9 +664,26 @@ Its Mission aims to create an atmosphere of academic excellence and competence, 
               Computer Science Professor
               PROF. ERVIN RAMOS
               Computer Science Professor </p>
+
+
+
+
+            <h5 class="text-white text-center"> MISSION</h5>
+            <p class=" text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+             
+              Provide quality undergraduate and graduate education in both the theoretical and applied foundations of computer science and train students to effectively apply this education to solve real-world problems thus amplifying their potential for lifelong high-quality careers and give them a competitive advantage in the ever-changing and challenging global work environment of the 21st century. </p>
+              
+              <h5 class="text-wrap text-white text-center">VISION</h5>
+            <p class=" text-wrap text-white"  style="text-align: justify;text-indent: 40px;">
+              Build a strong research and teaching environment that responds swiftly to the challenges of the 21st century.
+             
+            </p>
+
+
+        
           </div>
 
-         
+           
        
 
         </div>
@@ -746,179 +696,112 @@ Its Mission aims to create an atmosphere of academic excellence and competence, 
     
  </section>
 
- <section id="umHistory" class="mt-4 bg-primary p-0 shadow-sm" style="background-repeat: no-repeat;background-position:right; background-size: contain;">
+
+ 
 
 
-  <div class="container d-flex w-100 p-0 m-2  h-100">
 
-    <div class="row w-100 p-0">
-      <div class="col-2 bg-danger d-flex flex-column align-items-center">
-          <div class="mt-4">
-              <img src="SrcImg/LOGOCS.png" alt="Um Logo" style="border-radius: 50%;" width="150px" height="150px" class="mx-auto d-block img-back">
-              <h5 class="text-center mt-2 text-white">The University Of Manila</h5>
+
+<!-- CS EVENTS -->
+<section id="events" class="mt-4 ">
+  <div class="container-fluid">
+      <div class="row p-3">
+          <h4>Here are the latest CS Events</h4>
+
+          <div class="p-1 mb-1">
+              <h6 class="text-center fs-6"><span class="p-2 rounded-2">Acquaintance Party 2023</span></h6>
+          </div>
+
+          <div class="row justify-content-evenly d-flex">
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/EVENT1.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/EVENT2.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/EVENT3.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/EVENT14.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/EVENT5.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/EVENT6.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
           </div>
       </div>
-      <div class="col-10 d-flex flex-column justify-content-start">
 
-        <div class="row p-2">
-          <h5 class=" text-white mt-4">MISSION</h5>
+      <div class="row mt-2 p-3">
+          <div class="p-1 mb-1">
+              <h6 class="text-center"><span class="p-2 rounded-2">Intramurals 2024</span></h6>
+          </div>
 
-          <p class="text-wrap text-white" style="text-align: justify;">
-            Provide quality undergraduate and graduate education in both the theoretical and applied foundations of computer science and train students to effectively apply this education to solve real-world problems thus amplifying their potential for lifelong high-quality careers and give them a competitive advantage in the ever-changing and challenging global work environment of the 21st century.
-          </p>
-
-          <h5 class="text-white">VISION</h5>
-
-          <p class=" text-wrap text-white"  style="text-align: justify;">
-            Build a strong research and teaching environment that responds swiftly to the challenges of the 21st century.           </p>
-
-        </div>
-
-          
-         
-     
-
+          <div class="row justify-content-evenly d-flex">
+              <div class=" col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/Intrams1.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/Intrams2.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/Intrams3.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/Intrams5.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/Intrams6.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/Intrams6.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
+              </div>
+          </div>
       </div>
   </div>
-     
-
-
-  </div>
-
-  
 </section>
 
 
 
-
-<!--CS EVENTS-->
-  <section id="events" class=" mt-4 bg-body-secondary">
-
-     <div class="container-fluid">
-
-       <div class="row p-3">
-        
-          <h4>Here are the latest CS Events</h4>
-
-          <div class="p-1 mb-1">
-            <h6 class="text-center fs-6"><span class=" p-2 rounded-2 ">Acquintance Party 2023</span></h6>
-
-          </div>
-
-            <div class="row justify-content-evenly d-flex">
-               <div class="col-2 ">
-                       <img src="SrcImg/EVENT1.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-               </div>
-               <div class="col-2">
-                      <img src="SrcImg/EVENT2.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-              </div>
-               <div class="col-2">
-                     <img src="SrcImg/EVENT3.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-              </div>
-              <div class="col-2">
-                <img src="SrcImg/EVENT14.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-             </div>
-              <div class="col-2">
-                    <img src="SrcImg/EVENT5.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-            </div>
-              <div class="col-2">
-                    <img src="SrcImg/EVENT6.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-            </div>
-             
-              
-            
-            
-            </div>
-           
-       </div>
-
-       <div class="row mt-2 p-3">
-        <div class="p-1 mb-1">
-            <h6 class="text-center"> <span class=" p-2 rounded-2">Intramurals 2024</span></h6>
-        </div>
-            <div class="row justify-content-evenly d-flex">
-               <div class="col-2 ">
-                       <img src="SrcImg/Intrams1.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-               </div>
-               <div class="col-2">
-                      <img src="SrcImg/Intrams2.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-              </div>
-               <div class="col-2">
-                     <img src="SrcImg/Intrams3.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-              </div>
-              <div class="col-2">
-                <img src="SrcImg/Intrams5.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-             </div>
-              <div class="col-2">
-                    <img src="SrcImg/Intrams6.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-            </div>
-              <div class="col-2">
-                    <img src="SrcImg/Intrams6.jpg" alt="" width="180" height="180" style="border-radius: 10px;">
-
-            </div>
-             
-              
-            
-            
-            </div>
-           
-       </div>
-
-
-       <div class="row" style="margin-right:10px">
-              <div class="col d-flex justify-content-end align-items-center">
-                  <div class="btn-wrapper">
-                      <a href="https://www.facebook.com/profile.php?id=100088341306245" class="btn btn-info p-2 fs-6"><i class="bi bi-view-list"></i> View More</a>
-                  </div>
-              </div>
-        </div>
-    
-       
-
-     </div>
-  </section>
-
-
-
-  <!--FAMILY SECTION-->
-  <section id="Family" class=" mt-4 bg-body-secondary" style="background-image: url('SrcImg/montemorfam.png');background-repeat: no-repeat;">
-
-    <div class="container-fluid">
-
-       
-        
-   
-      
-
+<section id="Family" class="mt-lg-5 bg-body-secondary">
+  <div class="container-fluid rounded-2">
+    <div class="row p-2 shadow-sm bg-primary">
+      <h5 class="text-white p-1 text-center">Montemor Family</h5>
     </div>
- </section>
+  </div>
 
+  <div class="container-fluid mt-3">
+    <p class="text-center lead">
+
+      Family is the foundation of our lives, providing love, guidance, and unwavering support. Every shared moment becomes a treasured memory, woven with laughter, joy, and togetherness. Here are some of the most unforgettable times we've spent with the Jaicten Family, where love always comes first.    </p>
+  </div>
+
+    <div class="row d-flex">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center align-items-center w-100">
+        <img src="SrcImg/montemorfam.png" alt="Family Picture" class="rounded-4 img-fluid" style="max-width: 100%; height: 300px; width: 300px;">
+      </div>
+    </div>
+    
+
+  
+</section>
   <!--MAGAZINE-->
-<section id="Magazine" class="mt-4 bg-primary">
+<section id="Magazine" class="mt-4">
   <div class="container-fluid">
-      <h4 class="p-1 mt-2 text-center text-white">My Magazine</h4>
+      <h4 class="p-1 mt-2 text-center">My Magazine</h4>
       <div class="col 12">
           <div class="row mt-4 d-flex justify-content-center">
 
-              <div class="col-3 p-2">
-                  <img src="SrcImg/1.png" alt="jeraldmagazine" width="200" height="200" style="border-radius: 5px;">
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/MAGAZINE1.jfif" alt="jeraldmagazine" width="200" height="200" style="border-radius: 5px;">
               </div>
-              <div class="col-3 p-2">
-                  <img src="SrcImg/2.png" alt="jeraldmagazine" width="200" height="200"  style="border-radius: 5px;">
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                  <img src="SrcImg/MAGAZINE2.jfif" alt="jeraldmagazine" width="200" height="200"  style="border-radius: 5px;">
               </div>
-              <div class="col-3 p-2">
-                <img src="SrcImg/3.png" alt="jeraldmagazine" width="200" height="200" style="border-radius: 5px;">
+              <div class="col-12 col-md-3 d-flex justify-content-center">
+                <img src="SrcImg/MAGAZINE3.jfif" alt="jeraldmagazine" width="200" height="200" style="border-radius: 5px;">
               </div>
              
            
@@ -926,13 +809,13 @@ Its Mission aims to create an atmosphere of academic excellence and competence, 
           </div>
           <div class="row p-2 d-flex justify-content-end m-4">
 
-            <div class="col-3 p-2">
-                <img src="SrcImg/4.png" alt="jeraldmagazine" width="200" height="200"  style="border-radius: 5px;">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <img src="SrcImg/MAGAZINE4.jfif" alt="jeraldmagazine" width="200" height="200"  style="border-radius: 5px;">
             </div>
-            <div class="col-3 p-2">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
                 <img src="SrcImg/5.png" alt="jeraldmagazine" width="200" height="200"  style="border-radius: 5px;">
             </div>
-            <div class="col-3 p-2">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
               <img src="SrcImg/6.png" alt="jeraldmagazine" width="200" height="200"  style="border-radius: 5px;">
             </div>
          
